@@ -17,12 +17,12 @@ public class ContaTerminal {
         System.out.println("Por favor, informe seu Saldo !");
         double saldo = scanner.nextDouble();
 
-        String menssagem = "Olá " + nomeCliente + ", obrigado por criar uma";
-        menssagem += " conta em nosso banco, sua agência é " + numeroAgencia;
-        menssagem += ", conta " + numeroConta + " e seu saldo de R$ "+ saldo;
-        menssagem += " já está disponível para saque.";
+        String mensagem = "Olá " + nomeCliente + ", obrigado por criar uma";
+        mensagem += " conta em nosso banco, sua agência é " + numeroAgencia;
+        mensagem += ", conta " + numeroConta + " e seu saldo de R$ "+ saldo;
+        mensagem += " já está disponível para saque.";
 
-        System.out.println(menssagem);
-        
+        System.out.println(mensagem);
+        scanner.close();
     }
 }
