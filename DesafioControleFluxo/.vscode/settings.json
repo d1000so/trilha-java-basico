@@ -4,5 +4,6 @@
     "java.project.referencedLibraries": [
         "lib/**/*.jar"
     ],
-    "cSpell.language": "\"en,pt,pt_BR\","
+    "cSpell.language": "\"en,pt,pt_BR\",",
+    "java.debug.settings.onBuildFailureProceed": true
 }
